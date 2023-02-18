@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.nav {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.nav .nav--link {
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.nav .nav--link:last-child {
+  margin-right: 0px;
+}
+.nav .nav--link:hover {
+  transform: scale(1.6);
+  background-color: rgb(250, 196, 47);
+}
+
+.active {
+  background-color: rgb(250, 196, 47);
+}
+
+.sign-in {
+  background: rgb(95, 131, 228);
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.content {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.sing--in--text h1 {
+  margin-bottom: 10px;
+}
+.sing--in--text p {
+  margin-bottom: 30px;
+}
+
+.sing--in--input input {
+  padding: 10px 20px;
+}
+.sing--in--input .regBtn {
+  width: 230px;
+  height: 39px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(250, 196, 47);
+}
+
+.sing--in-IMG {
+  text-align: center;
+  margin-top: 50px;
+}
+.sing--in-IMG img {
+  width: 400px;
+  height: auto;
+}
+
+.works {
+  margin-top: 100px;
+}
+
+.works--main--text {
+  margin-bottom: 30px;
+}
+
+.works--item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.works--item .item {
+  width: 550px;
+  text-align: left;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  transition: 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+}
+.works--item .item:hover {
+  background-color: rgba(153, 153, 153, 0.479);
+}
+.works--item .item .inner--item--text h4 {
+  padding-bottom: 10px;
+}
+.works--item .item .works--img i {
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.half {
+  background: orange;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.half--item img {
+  width: 500px;
+}
+
+.half--item--left img {
+  width: 900px;
+}
+
+.half--item--right {
+  width: 50%;
+  margin-top: 70px;
+}
+.half--item--right h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.half--item--right p {
+  width: 400px;
+  margin-bottom: 20px;
+}
+.half--item--right button {
+  width: 200px;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.half--item--right button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.price {
+  margin-top: 100px;
+  background-color: rgb(161, 205, 241);
+  width: 100%;
+  height: 700px;
+}
+
+.price--inner {
+  text-align: center;
+  padding-top: 100px;
+}
+.price--inner .price--title h1 {
+  padding-bottom: 10px;
+}
+.price--inner .price--title p {
+  padding-bottom: 100px;
+}
+
+.prices {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.prices .prices--item {
+  background-color: #fff;
+  cursor: pointer;
+  width: 400px;
+  height: 300px;
+}
+.prices .prices--item .price--item--title {
+  margin: 50px 0px 10px 0px;
+}
+.prices .prices--item .price--item--price {
+  margin-bottom: 20px;
+}
+.prices .prices--item p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.prices .prices--item button {
+  margin-top: 10px;
+  padding: 14px 40px;
+  border: none;
+  background-color: rgb(250, 196, 47);
+  transition: 0.4s all;
+  cursor: pointer;
+}
+.prices .prices--item button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.prices .active--price {
+  margin-top: -50px;
+  height: 400px;
+  background-color: rgb(37, 115, 216);
+  color: #fff;
+}
+.prices .active--price .price--item--title {
+  margin: 80px 0px 10px 0px;
+}
+.prices .active--price .price--item--price {
+  margin-bottom: 20px;
+}
+.prices .active--price p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.prices .active--price button {
+  margin-top: 30px;
+  background-color: rgb(250, 196, 47);
+}
+
+.cloud--items {
+  margin-top: 100px;
+  display: flex;
+}
+.cloud--items .cloud--item {
+  text-align: center;
+  cursor: pointer;
+}
+.cloud--items .cloud--item .cloud--img {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: pink;
+  transition: 0.3s ease;
+}
+.cloud--items .cloud--item .cloud--img:hover {
+  transform: scale(1.2);
+}
+.cloud--items .cloud--item h2 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.cloud--items .cloud--item p {
+  margin-bottom: 120px;
+}
+.cloud--items .arrow {
+  margin-top: 50px;
+  font-size: 35px;
+  color: rgb(40, 177, 240);
+}
+
+.cloud--btn {
+  width: 150px;
+  padding: 15px 30px;
+  border: none;
+  background-color: rgb(40, 177, 240);
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.3s all;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.cloud--btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.people {
+  background-color: rgb(252, 183, 56);
+  width: 100%;
+  height: 750px;
+}
+
+.people--items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.people--items .people--item {
+  display: flex;
+  width: 450px;
+  text-align: left;
+  margin: 50px 50px 0px 50px;
+  color: #fff;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  transition: 0.7s all;
+  cursor: pointer;
+}
+.people--items .people--item:hover {
+  background-color: rgb(202, 201, 201);
+}
+.people--items .people--item .people--item--img {
+  margin-right: 20px;
+  background-color: #000;
+  width: 250px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.people--items .people--item .people--item--textBlock .people--inner--title {
+  text-transform: uppercase;
+  color: rgb(204, 94, 94);
+}
+.people--items .people--item .people--item--textBlock p {
+  color: rgb(73, 72, 72);
+  margin: 10px 0px;
+}
+
+.map {
+  position: relative;
+}
+.map img {
+  width: 100%;
+  height: auto;
+}
+
+.map--inner {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.map--inner .map--title--block .map--title {
+  margin-bottom: 10px;
+}
+.map--inner .map--title--block p {
+  margin-bottom: 20px;
+}
+.map--inner .map--input input {
+  padding: 5px 10px;
+  margin-bottom: 200px;
+}
+.map--inner .map--input button {
+  width: 200px;
+  padding: 5px 20px;
+  background-color: rgb(250, 196, 47);
+  border: none;
+}
+.map--inner .map--circle {
+  background-color: rgb(51, 51, 51);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+  color: #fff;
+}
+.map--inner .map--circle h3 {
+  padding: 20px 0px;
+}
+.map--inner .map--circle p {
+  width: 150px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.map--inner .map--circle span {
+  font-size: 12px;
+  color: orange;
+}
+.map--inner .footer {
+  padding-top: 20%;
+  width: 800px;
+  margin: 0 auto;
+}
+.map--inner .footer .footer--inner .footerH4 {
+  display: flex;
+  justify-content: space-around;
+}
+.map--inner .footer .footer--inner .footer--bottom .number {
+  margin-top: 40px;
+}
+.map--inner .footer .footer--inner .footer--item {
+  margin: 40px 0px;
+  color: #999;
+}/*# sourceMappingURL=style.css.map */
